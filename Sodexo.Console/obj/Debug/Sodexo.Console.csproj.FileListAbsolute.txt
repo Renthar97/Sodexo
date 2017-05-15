@@ -1,0 +1,5 @@
+c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Console\bin\Debug\Sodexo.Console.exe.config
+c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Console\bin\Debug\Sodexo.Console.exe
+c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Console\bin\Debug\Sodexo.Console.pdb
+c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Console\obj\Debug\Sodexo.Console.exe
+c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Console\obj\Debug\Sodexo.Console.pdb
