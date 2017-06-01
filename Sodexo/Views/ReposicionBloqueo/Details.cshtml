@@ -1,0 +1,43 @@
+﻿@model Sodexo.Entities.Entities.ReposicionBloqueo
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ReposicionBloqueo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Bloqueo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bloqueo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CostoReposicion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CostoReposicion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CostoEnvio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CostoEnvio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ReposicionBloqueoId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

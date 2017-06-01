@@ -16,3 +16,4 @@ c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Persistence\obj\
 C:\Users\HP\documents\visual studio 2017\Projects\Sodexo\Sodexo.Persistence\obj\Debug\Sodexo.Persistence.Migrations.Testing2.resources
 C:\Users\HP\documents\visual studio 2017\Projects\Sodexo\Sodexo.Persistence\obj\Debug\Sodexo.Persistence.Migrations.Testing3.resources
 C:\Users\HP\documents\visual studio 2017\Projects\Sodexo\Sodexo.Persistence\obj\Debug\Sodexo.Persistence.Migrations.Testing4.resources
+C:\Users\HP\documents\visual studio 2017\Projects\Sodexo\Sodexo.Persistence\obj\Debug\Sodexo.Persistence.Migrations.Testing5.resources

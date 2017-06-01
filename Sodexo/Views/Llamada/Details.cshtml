@@ -1,0 +1,43 @@
+﻿@model Sodexo.Entities.Entities.Llamada
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Llamada</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NroEntrante)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NroEntrante)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Duracion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duracion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoAtencion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoAtencion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.LlamadaId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

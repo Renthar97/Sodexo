@@ -13,6 +13,8 @@ namespace Sodexo.Persistence.EntityTypeConfigurations
         public UserConfiguration()
         {
             ToTable("Usuario");
+
+            HasKey(u => u.UserId);
         }
     }
 }

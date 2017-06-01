@@ -1,0 +1,27 @@
+﻿@model Sodexo.Entities.Entities.Operador
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Operador</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo_Operador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tipo_Operador)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OperadorId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

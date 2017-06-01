@@ -1,5 +1,5 @@
 c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Entities\bin\Debug\Sodexo.Entities.dll
 c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Entities\bin\Debug\Sodexo.Entities.pdb
-c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Entities\obj\Debug\Sodexo.Entities.csprojResolveAssemblyReference.cache
 c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Entities\obj\Debug\Sodexo.Entities.dll
 c:\users\hp\documents\visual studio 2017\Projects\Sodexo\Sodexo.Entities\obj\Debug\Sodexo.Entities.pdb
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Sodexo\Sodexo.Entities\obj\Debug\Sodexo.Entities.csprojResolveAssemblyReference.cache

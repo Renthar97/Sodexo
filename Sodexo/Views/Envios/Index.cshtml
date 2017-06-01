@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Sodexo.Entities.Entities.Envio>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Region)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Provincia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Distrito)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Persona_contacto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefono_contacto)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Direccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Region)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Provincia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Distrito)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Persona_contacto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefono_contacto)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EnvioId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EnvioId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EnvioId })
+        </td>
+    </tr>
+}
+
+</table>

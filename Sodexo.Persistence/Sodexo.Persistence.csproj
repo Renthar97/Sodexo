@@ -77,7 +77,13 @@
     <Compile Include="Migrations\201705120212218_Testing4.Designer.cs">
       <DependentUpon>201705120212218_Testing4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705252123186_Testing5.cs" />
+    <Compile Include="Migrations\201705252123186_Testing5.Designer.cs">
+      <DependentUpon>201705252123186_Testing5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="SodexoDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705120212218_Testing4.resx">
       <DependentUpon>201705120212218_Testing4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705252123186_Testing5.resx">
+      <DependentUpon>201705252123186_Testing5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
